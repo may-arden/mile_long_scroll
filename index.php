@@ -21,7 +21,7 @@ $dir = "images/";
 
   $num_imgs = count($imgs);
   for ($i = $num_imgs; $i >= 1; $i--) {
-    echo "<a href='http://opensea.io/ContinuousDrawingProject' target='_blank'><img src='images/".$i.".jpg'></a>";
+    echo "<img src='images/".$i.".jpg'>";
  
   }
 ?>
