@@ -40,7 +40,7 @@
             <img src="19sm.jpg" class="img-fluid">
           </div>
           <div class="modal-footer">
-            <p>Title of Piece Goes Here</p>
+            <p>Title of Piece Goes Here </p>
             <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button> -->
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
