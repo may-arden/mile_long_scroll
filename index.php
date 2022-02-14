@@ -12,10 +12,10 @@
     </p>
   </div>
 <?php
-$dir = "images/";
+// $dir = "images/";
 
 
-  $imgs = glob("images/*.{jpg,jpeg,JPG,JPEG}", GLOB_BRACE);
+  $imgs = glob("images/fullsize/*.{jpg,jpeg,JPG,JPEG}", GLOB_BRACE);
 
 
 
@@ -23,8 +23,8 @@ $dir = "images/";
   for ($i = $num_imgs; $i >= 1; $i--) {
     echo 
     "<div class='body text-center'>
-      <a data-bs-toggle='modal' data-bs-target='.bd-example-modal-sm'>
-        <img src='images/".$i.".jpg' class='img-fluid' >
+      <a data-bs-toggle='modal' data-bs-target='#my-modal/".$i"'>
+        <img src='images/fullsize/".$i.".jpg' class='img-fluid' >
       </a>
     </div>";
     echo     

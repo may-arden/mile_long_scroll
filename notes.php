@@ -4,7 +4,7 @@
       </a>
     </div> -->
 
-    <div class='modal fade bd-example-modal-sm' id='exampleModal' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    <!-- <div class='modal fade bd-example-modal-sm' id='exampleModal' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
       <div class='modal-dialog modal-sm'>
         <div class='modal-content'>
           <div class='modal-header'>
@@ -18,4 +18,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+<!-- data-bs-target='.bd-example-modal-sm'> -->
