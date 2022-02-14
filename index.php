@@ -27,12 +27,12 @@
   for ($i = $num_imgs; $i >= 1; $i--) {
     echo 
     "<div class='body text-center'>
-      <a data-bs-toggle='modal' data-bs-target='.bd-example-modal-sm".$i."'>
+      <a data-bs-toggle='modal' data-bs-target='#exampleModal".$i."'>
         <img src='images/fullsize/".$i.".jpg' class='img-fluid' >
       </a>
     </div>";
     echo     
-    "<div class='modal fade bd-example-modal-sm".$i."' id='exampleModal' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    "<div class='modal fade bd-example-modal-sm' id='exampleModal".$i."' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
       <div class='modal-dialog modal-sm'>
         <div class='modal-content'>
           <div class='modal-header'>
