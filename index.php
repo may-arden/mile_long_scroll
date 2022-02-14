@@ -21,8 +21,12 @@ $dir = "images/";
 
   $num_imgs = count($imgs);
   for ($i = $num_imgs; $i >= 1; $i--) {
-    echo "<img src='images/".$i.".jpg'>";
- 
+    echo 
+    "<div class='body text-center'>
+      <a data-bs-toggle='modal' data-bs-target='.bd-example-modal-sm'>
+        <img src='images/".$i.".jpg' class='img-fluid' >
+      </a>
+    </div>";
   }
 ?>
  </body>
