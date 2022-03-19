@@ -41,7 +41,7 @@
             <img src='images/small/".$i.".jpg' class='img-fluid'>
           </div>
           <div class='modal-footer'>
-            <p>Title of Piece Goes Here </p>
+           
             <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
           </div>
         </div>
