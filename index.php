@@ -34,7 +34,7 @@
     echo     
     "<div class='modal fade bd-example-modal-sm' id='exampleModal".$i."' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
       <div class='modal-dialog modal-sm'>
-        <div class='modal-content'>
+        <div class='modal-content-centered'>
          
           <div class='modal-body text-center'>
             <img src='images/small/".$i.".jpg' class='img-fluid'>

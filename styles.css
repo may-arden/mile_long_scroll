@@ -1,0 +1,14 @@
+img, div {
+  border: 1px solid #ddd;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+}
+
+.modal {
+  text-align: center;
+}
